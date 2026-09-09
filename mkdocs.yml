@@ -12,20 +12,20 @@ theme:
 
 nav:
   - 导读: index.md
-  - 术语表: glossary.md
-  - 00 前置条件: 00_prereqs/index.md
-  - 01 第一个仿真: 01_first_sim/index.md
-  - 02 第一个机器人: 02_first_robot/index.md
-  - 03 USD 与 Omniverse: 03_usd_omniverse/index.md
-  - 04 Python API: 04_python_api/index.md
-  - 05 Extensions: 05_extensions/index.md
-  - 06 ROS2: 06_ros2/index.md
-  - 07 Isaac Lab: 07_isaac_lab/index.md
-  - 08 SDG 与传感器: 08_sdg_sensors/index.md
-  - 5→6 迁移: migration_5_to_6/index.md
-  - 常见坑: pitfalls/index.md
-  - 速查表: cheatsheets/index.md
-  - 资源链接: links.md
+  - 术语表: 术语表.md
+  - 00 前置与安装: 00_前置与安装/index.md
+  - 01 第一次仿真: 01_第一次仿真/index.md
+  - 02 第一次机器人: 02_第一次机器人/index.md
+  - 03 USD与Omniverse: 03_USD与Omniverse/index.md
+  - 04 Python接口: 04_Python接口/index.md
+  - 05 扩展开发: 05_扩展开发/index.md
+  - 06 ROS2集成: 06_ROS2集成/index.md
+  - 07 Isaac Lab: 07_Isaac_Lab/index.md
+  - 08 SDG与传感器: 08_SDG与传感器/index.md
+  - 迁移 5到6: 迁移_5到6/index.md
+  - 常见坑: 常见坑/index.md
+  - 速查表: 速查表/index.md
+  - 资源链接: 资源链接.md
 
 markdown_extensions:
   - tables

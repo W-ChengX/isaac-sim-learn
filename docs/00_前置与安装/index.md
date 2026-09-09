@@ -16,7 +16,7 @@
 - [ ] 笔记中写明：`ISAAC_SIM_VERSION=5.1.0`、安装根目录、启动命令
 - [ ] 确认绑定 Python：**5.x ≈ 3.11**；若另装对照轨 6.x，则 **6.x = 3.12**，且环境变量互不覆盖
 - [ ] 首次启动等到着色器编译完成；第二次启动明显变快
-- [ ] 已读仓库根目录 [VERSIONS.md](../../VERSIONS.md) 与 [LICENSE-NOTES.md](../../LICENSE-NOTES.md)
+- [ ] 已读仓库根目录 [VERSIONS.md](../VERSIONS.md) 与 [LICENSE-NOTES.md](../LICENSE-NOTES.md)
 
 ## 概念讲解（自己的话）
 

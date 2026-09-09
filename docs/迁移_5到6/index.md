@@ -63,7 +63,7 @@
    https://docs.isaacsim.omniverse.nvidia.com/5.1.0/ros2_tutorials/ros2_landing_page.html
    https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/ros2_landing_page.html
 5. 在**新目录**安装 6.0.1，验证一条脚本；把 diff 记回上表。
-6. 回到仓库 [VERSIONS.md](../../VERSIONS.md) 核对钉死策略。
+6. 回到仓库 [VERSIONS.md](../VERSIONS.md) 核对钉死策略。
 
 ## 5.1 vs 6.x 差异要点
 

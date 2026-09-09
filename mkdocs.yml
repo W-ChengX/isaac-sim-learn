@@ -1,5 +1,8 @@
 site_name: Isaac Sim Learn
 site_description: Isaac Sim 中文自学笔记（主路径 5.1.0，对照 6.0.1/latest）
+site_url: https://w-chengx.github.io/isaac-sim-learn/
+repo_url: https://github.com/W-ChengX/isaac-sim-learn
+repo_name: W-ChengX/isaac-sim-learn
 docs_dir: docs
 
 theme:

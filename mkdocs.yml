@@ -15,6 +15,8 @@ theme:
 
 nav:
   - 导读: index.md
+  - 版本对照: VERSIONS.md
+  - 许可说明: LICENSE-NOTES.md
   - 术语表: 术语表.md
   - 00 前置与安装: 00_前置与安装/index.md
   - 01 第一次仿真: 01_第一次仿真/index.md

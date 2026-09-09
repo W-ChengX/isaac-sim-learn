@@ -10,6 +10,6 @@
 
 ## 下一步
 
-1. 完成 `docs/01_first_sim` 与 `docs/04_python_api` 验收。
+1. 完成 `docs/01_第一次仿真` 与 `docs/04_Python接口` 验收。
 2. 在此添加 `hello_sim.py` 等自有示例（可选）。
 3. 确认根目录 `.gitignore` 已忽略 `*.usd*` 与大二进制。

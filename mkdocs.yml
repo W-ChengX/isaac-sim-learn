@@ -1,0 +1,33 @@
+site_name: Isaac Sim Learn
+site_description: Isaac Sim 自学笔记（主路径 5.1.0，对照 6.0.1/latest）
+docs_dir: docs
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - 首页: index.md
+  - 00 前置条件: 00_prereqs/index.md
+  - 01 第一个仿真: 01_first_sim/index.md
+  - 02 第一个机器人: 02_first_robot/index.md
+  - 03 USD 与 Omniverse: 03_usd_omniverse/index.md
+  - 04 Python API: 04_python_api/index.md
+  - 05 Extensions: 05_extensions/index.md
+  - 06 ROS2: 06_ros2/index.md
+  - 07 Isaac Lab: 07_isaac_lab/index.md
+  - 08 SDG 与传感器: 08_sdg_sensors/index.md
+  - 5→6 迁移: migration_5_to_6/index.md
+  - 常见坑: pitfalls/index.md
+  - 速查表: cheatsheets/index.md
+  - 资源链接: links.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true

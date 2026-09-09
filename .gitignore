@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# MkDocs
+site/
+.cache/
+
+# USD / 大二进制（禁止提交官方或本地大资产）
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.otio
+*.npy
+*.npz
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+*.exr
+*.hdr
+*.blend
+*.fbx
+*.obj
+*.mtl
+*.dae
+
+# Isaac / Omniverse 安装与缓存路径（常见）
+_isaac_sim/
+isaac-sim/
+IsaacSim/
+.nvidia-omniverse/
+*/kit/cache/
+*/cache/
+*.nvindex
+
+# 日志与本地密钥
+*.log
+.env
+.env.*
+secrets/

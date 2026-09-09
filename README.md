@@ -2,6 +2,9 @@
 
 自学向、可验收的 **Isaac Sim** 中文学习笔记（docs-as-code）。本仓库写「概念 / 步骤骨架 / 验收标准 / 常见坑」，并始终给出官方文档对照链接；**不**二次分发 NVIDIA 官方 USD、贴图、模型或安装包。
 
+- **仓库**：https://github.com/W-ChengX/isaac-sim-learn
+- **在线文档（GitHub Pages）**：https://w-chengx.github.io/isaac-sim-learn/
+
 ## 定位
 
 - 面向从零到能独立跑仿真、机器人、Python、ROS2 / Isaac Lab 的学习者。
@@ -21,7 +24,7 @@
 ## 如何导航文档
 
 1. 先读本 README、[VERSIONS.md](VERSIONS.md)、[LICENSE-NOTES.md](LICENSE-NOTES.md)。
-2. 从 [docs/index.md](docs/index.md) 按学习路径推进（00 → 01 → 02 …）。
+2. 从 [docs/index.md](docs/index.md) 按学习路径推进（00 → 01 → 02 …），或直接打开 [在线站点](https://w-chengx.github.io/isaac-sim-learn/)。
 3. 遇到生词查 [术语表](docs/术语表.md)；需要官方入口查 [资源链接](docs/资源链接.md)。
 4. 每章底部的「官方对照」同时给出 **5.1.0** 与 **latest/6.0.1** 绝对 URL，按你当前安装版本点开即可。
 
@@ -33,6 +36,8 @@ mkdocs serve
 ```
 
 浏览器打开终端提示的本地地址（通常是 `http://127.0.0.1:8000`）。改 `docs/` 下 Markdown 后保存即可热刷新。
+
+站点由 GitHub Actions（`.github/workflows/pages.yml`）在每次 `main` 推送时 `mkdocs build` 并发布到 Pages，**不以 main 仓库根目录当站点**。
 
 ## 最短验收
 
@@ -51,7 +56,7 @@ mkdocs serve
 - 源码：`docs/` + `mkdocs.yml`
 - 主题：Material（`language: zh`）
 - 目录名已中文化（保留数字前缀），见 `docs/00_前置与安装` 等。
-- 贡献：改 Markdown → PR →（可选）GitHub Pages
+- 发布：push `main` → Actions → GitHub Pages
 
 ## 官方入口（常备）
 
